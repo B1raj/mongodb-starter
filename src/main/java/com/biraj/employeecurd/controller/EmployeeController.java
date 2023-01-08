@@ -7,11 +7,12 @@ import com.biraj.employeecurd.repository.EmployeeRepository;
 import com.biraj.employeecurd.repository.impl.CustomEmployeeRepositoryImpl;
 import com.biraj.employeecurd.service.SequenceGeneratorService;
 import com.mongodb.client.result.UpdateResult;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
+//import javax.validation.Valid;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
